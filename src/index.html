@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/png" href="./img/medical-bag.png">
+    <title>PetDog</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#menu">
+    <div id="topo" class="container mt-3 mb-2">
+        <!-- Header fixo no topo -->
+        <header class="sticky-top bg-light d-flex flex-wrap justify-content-center py-3 mb-5 border-bottom">
+            <a href="/"
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <span class="fs-4 fw-bold ms-2 text-primary">PetMedic <i class="mdi mdi-dog"></i></span>
+            </a>
+            <ul id="menu" class="nav nav-pills">
+                <!-- Modo escuro -->
+                <div class="form-check form-switch ms-auto mt-2 me-5">
+                    <label id="icone-toggle" class="form-check-label ms-3" for="lightSwitch"></label>
+                    <input class="form-check-input" type="checkbox" id="lightSwitch" />
+                </div>
+                <!-- Menu de navegação -->
+                <li class="nav-item"><a href="#topo" class="nav-link active" aria-current="page"><i
+                            class="mdi mdi-home"></i>Home</a></li>
+                <li class="nav-item"><a href="#servicos" class="nav-link">Serviços</a></li>
+                <li class="nav-item"><a href="#precos" class="nav-link">Preços</a></li>
+                <li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
+                <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+        </header>
+
+        <!-- Seção principal -->
+        <section>
+            <div class="row mt-5">
+                <div class="col-md-6 mt-5 text-center text-md-start">
+                    <h2 class="fs-5 mt-5">Aqui tratamos seu amigo de patas <i class="mdi mdi-paw"></i> com carinho!</h2>
+                    <h1 class="display-2 fs-bold mt-5">PetMedic<img class="ms-2"
+                            src="./img/pets_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="icone de pata"></h1>
+                    <p class="fs-5 mt-4 bg-light">
+                        Atendimento personalizado: Cada animal é único, por isso dedicamos tempo para entender as
+                        necessidades individuais do seu pet, construindo um relacionamento de confiança.
+                        Ambiente acolhedor: Criamos um ambiente tranquilo e seguro, com equipe atenciosa e preparada
+                        para oferecer conforto e carinho a todos os pacientes.
+                        Comunicação transparente: Mantemos você informado sobre o estado de saúde do seu animal de
+                        estimação, respondendo a todas as suas dúvidas com clareza e respeito.
+                        Cuidados com amor: Cada procedimento é realizado com o máximo cuidado e compaixão, sempre
+                        buscando minimizar o estresse e garantir o conforto do seu pet.
+                    </p>
+                    <div class="d-flex">
+                        <a href="#" class="btn btn-primary mt-3 p-2 border-dark shadow fw-bold w-50">Agendar consulta <i
+                                class="mdi mdi-arrow-right-thick"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mt-5">
+                    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+                        type="module"></script>
+                    <dotlottie-player class="m-0 m-auto float-md-end float-none"
+                        src="https://lottie.host/97f6fbb9-cca4-4532-aad9-d672bb67f4b7/EkiqFTOhIv.json"
+                        background="transparent" speed="1" style="max-width: 70%" direction="1" playMode="normal" loop
+                        autoplay></dotlottie-player>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Serviços -->
+        <section id="servicos" class="text-center py-5 mt-5">
+            <div class="row mt-5">
+                <div class="col">
+                    <h2 class="h1 fs-bold mb-5 p-5" style="font-weight: 900; font-family: poppins;">Serviços prestados
+                    </h2>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-4 mt-3 mb-5">
+                    <img class="rounded-circle border shadow p-5" src="img/vacinado.png" alt="Vacinação">
+                    <h2 class="fw-normal mt-4 fw-bold">Vacinação</h2>
+                    <p>Oferecemos uma gama completa de vacinas para proteger seu pet contra doenças comuns e graves.
+                        Nossos veterinários altamente qualificados realizam a vacinação de forma segura e eficiente,
+                        garantindo que seu animal de estimação esteja sempre protegido.</p>
+                    <p><a class="btn btn-info" href="#">Ver detalhes »</a></p>
+                </div>
+                <div class="col-lg-4 mt-4 mb-5">
+                    <img class="rounded-circle border shadow p-5" src="img/veterinario.png" alt="Emergência">
+                    <h2 class="fw-normal mt-3 fw-bold">Emergência</h2>
+                    <p>Estamos preparados para atender emergências veterinárias a qualquer hora do dia ou da noite.
+                        Nossa equipe está pronta para lidar com situações críticas, oferecendo cuidados rápidos e
+                        eficazes para garantir a saúde e segurança do seu pet.</p>
+                    <p><a class="btn btn-info" href="#">Ver detalhes »</a></p>
+                </div>
+                <div class="col-lg-4 mt-4 mb-5">
+                    <img class="rounded-circle border shadow p-5" src="img/food.png" alt="Raio-X">
+                    <h2 class="fw-normal mt-3 fw-bold">Raio-X</h2>
+                    <p>Disponibilizamos serviços de raio-X para diagnósticos precisos. Nossos equipamentos de última
+                        geração permitem que realizemos exames detalhados, ajudando a identificar e tratar problemas
+                        internos com precisão e rapidez.</p>
+                    <p><a class="btn btn-info" href="#">Ver detalhes »</a></p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Seção Preços -->
+        <section id="precos">
+            <div class="pricing-header p-5 pb-md-4 mx-auto text-center mt-5">
+                <h2 class="display-5 fw-bold mt-5 mb-5">Preços dos planos</h2>
+                <p class="fs-5 mt-5 mb-5">Escolha o plano que melhor atende às necessidades do seu pet. Nossos planos
+                    são
+                    projetados para oferecer cuidados de qualidade com opções que se ajustam ao seu orçamento e às
+                    necessidades de saúde e bem-estar do seu animal.</p>
+                <div class="row row-cols-1 row-cols-md-3 mb-5 text-center">
+                    <!-- Plano Básico de Saúde -->
+                    <div class="col">
+                        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                            <div class="card-header py-3 text-bg-primary border-primary">
+                                <h4 class="my-0 fw-normal">Plano Básico</h4>
+                            </div>
+                            <div class="card-body bg-light">
+                                <h1 class="card-title pricing-card-title text-primary">R$100</h1>
+                                <ul class="list-unstyled mt-3 mb-4 text-primary">
+                                    <li>Consultas veterinárias básicas</li>
+                                    <li>Vacinas anuais</li>
+                                    <li>Desparasitantes</li>
+                                    <li>Assistência telefônica</li>
+                                </ul>
+                                <button type="button" class="w-100 btn btn-lg btn-primary">Adquirir Plano</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Plano Avançado de Saúde -->
+                    <div class="col">
+                        <div class="card mb-5 rounded-3 shadow-sm border-primary">
+                            <div class="card-header py-3 text-bg-primary border-primary">
+                                <h4 class="my-0 fw-normal">Plano Avançado</h4>
+                            </div>
+                            <div class="card-body bg-light">
+                                <h1 class="card-title pricing-card-title text-primary">$200</h1>
+                                <ul class="list-unstyled mt-3 mb-4 text-primary">
+                                    <li>Consultas veterinárias ilimitadas</li>
+                                    <li>Vacinas anuais e trimestrais</li>
+                                    <li>Desparasitantes e exames</li>
+                                    <li>Consultas de emergência</li>
+                                </ul>
+                                <button type="button" class="w-100 btn btn-lg btn-primary">Adquirir Plano</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Plano Premium de Saúde e Beleza -->
+                    <div class="col">
+                        <div class="card mb-5 rounded-3 shadow-sm border-primary">
+                            <div class="card-header py-3 text-bg-primary border-primary">
+                                <h4 class="my-0 fw-normal">Plano Premium</h4>
+                            </div>
+                            <div class="card-body bg-light">
+                                <h1 class="card-title pricing-card-title text-primary">$250</h1>
+                                <ul class="list-unstyled mt-3 mb-4 text-primary">
+                                    <li>Consultas veterinárias ilimitadas</li>
+                                    <li>Vacinas e exames</li>
+                                    <li>Tratamentos de emergência</li>
+                                    <li>2 Banhos e Tosas por mês</li>
+                                    <li>Assistência 24h</li>
+                                </ul>
+                                <button type="button" class="w-100 btn btn-lg btn-primary">Adquirir Plano</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Seção FAQ -->
+        <section id="faq" class="py-5 my-5">
+            <div class="row pt-5 mt-5">
+                <div class="col-12 text-center mt-5 mb-5">
+                    <h2 class="display-5 fw-bold">Perguntas Frequentes</h2>
+                </div>
+            </div>
+            <div class="row mt-5 mb-5">
+                <div class="col-12">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Quais vacinas são necessárias para o meu pet?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>Para cães e gatos, é importante manter as vacinas em dia para garantir a
+                                        saúde deles.</strong>
+                                    As vacinas essenciais para cães incluem a vacina múltipla (V8 ou V10), contra raiva
+                                    e leishmaniose. Para gatos, as vacinas básicas são a tríplice felina (V3) e a vacina
+                                    contra a leucemia felina. A frequência das vacinas pode variar de acordo com a idade
+                                    e a saúde do seu pet, por isso, recomendamos uma consulta regular com o veterinário.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Como posso saber se meu pet está com algum problema de saúde?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>Fique atento a sinais como alterações no apetite, comportamento, peso, e
+                                        pelos do seu pet.</strong>
+                                    Outros sinais incluem alterações na urina ou fezes, falta de energia, ou
+                                    comportamento agressivo. Se notar qualquer um desses sinais ou se seu pet estiver
+                                    exibindo sintomas incomuns, é sempre melhor consultar um veterinário para um exame
+                                    completo.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Qual a importância da alimentação adequada para meu pet?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>A alimentação adequada é crucial para a saúde e bem-estar do seu
+                                        pet.</strong>
+                                    Uma dieta balanceada ajuda a manter o peso ideal, promove um pelo saudável, e apoia
+                                    o sistema imunológico. É importante escolher rações de qualidade e fornecer
+                                    alimentos adequados para a idade, tamanho e necessidades especiais do seu pet.
+                                    Consulte o veterinário para recomendações específicas sobre a dieta.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Quais são os sinais de que um animal precisa de emergência veterinária?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>Sinais de emergência veterinária incluem dificuldade respiratória,
+                                        sangramentos, vômito ou diarreia severos, e convulsões.</strong>
+                                    Outros sinais de alerta são a perda de consciência, dificuldade para se movimentar
+                                    ou dor intensa. Se seu pet apresentar qualquer um desses sintomas, procure
+                                    atendimento veterinário imediatamente para garantir o tratamento adequado.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Contato -->
+        <section id="contato" class="py-5 my-5">
+            <div class="row pt-5 mt-5">
+                <div class="col-12 text-center">
+                    <h2 class="display-5 fw-bold mb-4">Contato</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="h-100 p-5 bg-body-tertiary border rounded-5">
+                        <h2 class="display-5 text-muted">Fale conosco</h2>
+                        <p class="fs-5 text-muted">Estamos aqui para garantir que seu pet receba o melhor cuidado
+                            possível. Se tiver dúvidas sobre a saúde do seu animal, precisar de orientação sobre
+                            tratamentos ou quiser agendar uma consulta, não hesite em entrar em contato conosco. Nossa
+                            equipe está pronta para oferecer suporte e responder a todas as suas perguntas. A saúde e o
+                            bem-estar do seu pet são nossa prioridade!</p>
+                        <p class="mt-4 mdi mdi-phone text-muted"> Telefone: (54) 00000-0000</p>
+                        <p class="mt-4 mdi mdi-email text-muted"> Email: email@exemplo.com</p>
+                        <button class="btn btn-outline-success w-75 btn-lg mt-4" type="button"><i
+                                class="mdi mdi-whatsapp"></i> Chamar WhatsApp</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="h-100 p-5 bg-body-tertiary border rounded-5">
+                        <h2 class="display-5 text-muted">Endereço</h2>
+                        <p class="text-center text-muted">Ex.: Centro, Caxias do Sul/RS</p>
+                        <iframe class="m-0 m-auto"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3483.875824581274!2d-51.18194817369441!3d-29.16833127537654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951ebcd2d5674f95%3A0xf5e91ca758ef500b!2sPra%C3%A7a%20Dante%20Alighieri%20-%20Centro%2C%20Caxias%20do%20Sul%20-%20RS%2C%2095047-500!5e0!3m2!1sen!2sbr!4v1724079962849!5m2!1sen!2sbr"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="container p-5 mt-5 border bg-light">
+        <p class="float-end"><a href="#topo">Voltar ao topo</a></p>
+        <p>© 2023-2024 <span class="ms-2 fs-4 fw-bold me-2">PetMedic - Clínica Veterinária <i
+                    class="mdi mdi-dog"></i></span><a class="ms-5 me-4" href="#">Política de privacidade</a><a
+                href="#">Termos de uso</a></p>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="./js/darkMode.js"></script>
+</body>
+
+</html>
